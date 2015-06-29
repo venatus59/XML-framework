@@ -44,16 +44,16 @@ public class XMLParser {
 				if (nNode.getNodeType() == Node.ELEMENT_NODE){
 					Element eElement = (Element) nNode;
 					
-					if(eElement.getElementsByTagName("slalary").item(0).get .equalsIgnoreCase("cindy")){
-						System.out.println("the high goddess of all reality");
-					}
-					else{
+//					if(eElement.getElementsByTagName("slalary").item(0).get .equalsIgnoreCase("cindy")){
+//						System.out.println("the high goddess of all reality");
+//					}
+//					else{
 						System.out.println("Staff id : " + eElement.getAttribute("id"));
 						System.out.println("First Name : " + eElement.getElementsByTagName("firstname").item(0).getTextContent());
 						System.out.println("Last Name : " + eElement.getElementsByTagName("lastname").item(0).getTextContent());
 						System.out.println("Nick Name : " + eElement.getElementsByTagName("nickname").item(0).getTextContent());
 						System.out.println("Salary : " + eElement.getElementsByTagName("salary").item(0).getTextContent());
-					}
+//					}
 				}
 			}
 		}
