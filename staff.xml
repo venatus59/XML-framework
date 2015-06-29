@@ -16,6 +16,11 @@
 		<firstname>cindy</firstname>
 		<lastname>franklin</lastname>
 		<nickname>the sweet heart</nickname>
-		<salary>99999999999999</salary>
+		<salary>9999999</salary>
 	</staff>
+	<staff id="16">
+		<firstname>goddess</firstname>
+		<lastname>jennifer</lastname>
+		<nickname>angel of mercy</nickname>
+		<salary>1000000000000000000</salary></staff>
 </company>

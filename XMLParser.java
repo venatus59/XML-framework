@@ -44,11 +44,19 @@ public class XMLParser {
 				if (nNode.getNodeType() == Node.ELEMENT_NODE){
 					Element eElement = (Element) nNode;
 					
+<<<<<<< HEAD
 //					if(eElement.getElementsByTagName("slalary").item(0).get .equalsIgnoreCase("cindy")){
 //						System.out.println("the high goddess of all reality");
 //					}
 //					else{
+=======
+					if(Double.parseDouble(eElement.getElementsByTagName("salary").item(0).getTextContent())>=20000000){
+						System.out.println(eElement.getElementsByTagName("firstname").item(0).getTextContent()+" the high goddess of all reality");
+					}
+					else{
+>>>>>>> origin/master
 						System.out.println("Staff id : " + eElement.getAttribute("id"));
+
 						System.out.println("First Name : " + eElement.getElementsByTagName("firstname").item(0).getTextContent());
 						System.out.println("Last Name : " + eElement.getElementsByTagName("lastname").item(0).getTextContent());
 						System.out.println("Nick Name : " + eElement.getElementsByTagName("nickname").item(0).getTextContent());
