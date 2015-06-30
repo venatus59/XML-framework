@@ -32,7 +32,7 @@ public class XMLParser {
 			
 			NodeList nList = doc.getElementsByTagName("staff");
 			
-			System.out.println(nList.getLength()+"-----------------");
+			System.out.println("-----------------");
 			
 			for (int temp = 0; temp < nList.getLength(); temp++){
 				Node nNode = nList.item(temp);
